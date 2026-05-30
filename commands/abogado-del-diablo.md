@@ -1,11 +1,10 @@
 ---
-description: Vuelve a Claude en tu contra y critica a fondo una idea, un plan o un proyecto entero. Sin validar, sin suavizar — veredicto + qué arreglar. / Turn Claude against you to harshly critique an idea, plan, or whole project.
+description: "Vuelve a Claude en tu contra y critica a fondo una idea, un plan o un proyecto entero. Sin validar, sin suavizar — veredicto + qué arreglar. / Turn Claude against you to harshly critique an idea, plan, or whole project."
 argument-hint: "[idea o tema a criticar | --proyecto | --demolicion]"
 allowed-tools:
   - Read
   - Glob
   - Grep
-  - Bash
   - Task
   - WebSearch
   - WebFetch
@@ -27,6 +26,8 @@ Lee ese archivo de principio a fin antes de hacer nada. Luego:
 1. **Identifica el objeto a criticar.** Lo que venga en `$ARGUMENTS`; si no hay
    argumento, la última idea / plan / propuesta del contexto. Con `--proyecto`,
    mapea y critica el proyecto entero (lee README, manifiestos, estructura, archivos clave).
+   No interrogues al usuario antes de criticar: procede con lo que haya en contexto.
+   Usa `AskUserQuestion` como máximo una vez, y solo si de plano no hay nada concreto que atacar.
 
 2. **Regla número uno:** prohibido validar, adular o abrir con algo positivo. Cero
    hedging. Asume que la idea va a fracasar y demuéstralo.
@@ -34,11 +35,14 @@ Lee ese archivo de principio a fin antes de hacer nada. Luego:
 3. **Recorre los ocho ángulos** (ver `references/angulos.md`): premisas falsas ·
    mercado · competencia · viabilidad · números · ejecución · pre-mortem · punto ciego.
 
-4. **Investiga** casos reales de fracaso parecidos con `WebSearch`/`WebFetch` si
-   están disponibles. Cita lo que encuentres; no inventes fuentes.
+4. **Investiga** casos reales de fracaso parecidos, pero **solo si `WebSearch` /
+   `WebFetch` existen en esta sesión**. Cita lo que encuentres. En un chat simple
+   sin esas herramientas, no inventes fuentes: dilo y razona con patrones conocidos.
 
-5. **Con `--demolicion` o si el objeto es grande**, lanza subagentes en paralelo
-   con `Task` (uno por ángulo), luego sintetiza, deduplica y ordena por severidad.
+5. **Con `--demolicion` o si el objeto es grande**, y **solo si `Task` existe**,
+   lanza subagentes en paralelo (uno por ángulo), luego sintetiza, deduplica y
+   ordena por severidad. Si no hay `Task` (chat simple), recorre los ocho ángulos
+   en un solo hilo.
 
 6. **Entrega el veredicto** en el formato del skill: VEREDICTO crudo → grietas por
    severidad (golpe · por qué es letal · qué tendría que ser cierto) → la que lo

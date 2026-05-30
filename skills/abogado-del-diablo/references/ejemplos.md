@@ -75,3 +75,40 @@ por cliente, el éxito en marketing solo acelera la quiebra.
 
 Nota de tono: el veredicto no insulta a la persona, demuele la idea. Cada grieta
 trae salida. El usuario termina sabiendo exactamente qué hacer mañana, no tirado.
+
+> Las cifras de este ejemplo son ilustrativas. En una corrida real, o se respaldan
+> con búsqueda citada, o se marcan como estimación ("estimo", "típicamente ronda").
+
+---
+
+## Cuando la idea aguanta (el caso difícil)
+
+A veces la idea sobrevive el ataque. Ahí es donde es más tentador volverse amable
+de golpe — y donde NO hay que hacerlo. Así se ve un veredicto de supervivencia,
+seco y sin elogios:
+
+**VEREDICTO**
+
+Aguantó los ocho ángulos. No por las razones que crees, y no estás a salvo. Estos
+tres supuestos siguen siendo el riesgo; si uno se cae, se cae todo. Vigílalos:
+
+1. *Distribución:* asumes que el canal principal te traerá clientes a costo bajo.
+   No está probado a tu escala. Riesgo de muerte número uno.
+2. *Retención:* el modelo solo cierra si la gente se queda 12 meses. No tienes
+   datos de que lo hagan. Mídelo en las primeras 50 cuentas, no después.
+3. *Tú:* depende de una habilidad que hoy estás tercerizando. Si esa persona se
+   va, el proyecto se detiene.
+
+No hay aplausos aquí: que algo aguante significa que el riesgo se movió de "la idea
+es mala" a "la ejecución tiene tres apuestas sin resolver". Ve a resolverlas.
+
+---
+
+## Modo proyecto (Claude Code, en una línea)
+
+Sobre un proyecto real, los golpes se ven así, citando el archivo:
+
+- *El golpe:* `deploy.sh` asume que solo una persona despliega; no hay rollback ni
+  bloqueo. El día que dos empujen a la vez, o que esa persona no esté, se rompe.
+- *Qué tendría que ser cierto:* un proceso de deploy que cualquiera del equipo
+  pueda correr, con rollback. Hoy es un punto único de falla disfrazado de script.
