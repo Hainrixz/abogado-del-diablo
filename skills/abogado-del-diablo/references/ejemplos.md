@@ -24,15 +24,17 @@ morir por logística y por CAC. Cuatro grietas, de la más letal a la menos:
 
 **1. La economía no cierra y es el problema número uno.**
 - *El golpe:* $25 al mes, de los cuales producto + caja + envío se comen fácil
-  $14-18. Te quedan ~$8 de margen bruto. Adquirir un cliente de suscripción por
-  Instagram cuesta hoy entre $30 y $60. Recuperas el CAC hasta el mes 4-7… si no
-  se va antes.
-- *Por qué es letal:* las cajas de suscripción tienen churn brutal (30-40% en los
-  primeros 3 meses es normal). Si el cliente promedio dura 3 meses, **pierdes
-  dinero en cada cliente que adquieres.** Crecer te quiebra más rápido.
+  $14-18. Te quedan $7-11 de margen bruto (pongamos $9). Adquirir un cliente de
+  suscripción por Instagram cuesta hoy entre $30 y $60. Recuperas el CAC hasta el
+  mes 4-7… si no se va antes.
+- *Por qué es letal:* estas cajas tienen un churn mensual brutal (10-15% al mes es
+  normal: a los seis meses ya perdiste a la mitad). Con una vida media de ~5 meses
+  dejas ~$45 por cliente y pagaste $30-60 por traerlo: el LTV no supera al CAC ni
+  una vez, menos por 3×. **Pierdes dinero en cada cliente que adquieres**, así que
+  crecer te quiebra más rápido.
 - *Qué tendría que ser cierto:* o el ticket sube a $40+, o el CAC baja a un solo
-  dígito (orgánico, no ads), o la retención pasa de 8-9 meses. Sin uno de esos
-  tres, no hay negocio.
+  dígito (orgánico, no ads), o bajas el churn para llevar la vida del cliente más
+  allá de los 8-9 meses. Sin uno de esos tres, no hay negocio.
 
 **2. "Curado por un nutriólogo" no es un foso, es una línea de copy.**
 - *El golpe:* cualquiera puede contratar a un nutriólogo por horas y poner lo
@@ -65,7 +67,7 @@ por cliente, el éxito en marketing solo acelera la quiebra.
 **SI INSISTES, ARREGLA ESTO PRIMERO**
 
 1. Antes de gastar un peso en producto: arma la hoja de números real con costo de
-   caja, envío, CAC estimado y churn de 35%. Si el LTV no supera al CAC por 3×, para aquí.
+   caja, envío, CAC estimado y churn mensual de 12-15%. Si el LTV no supera al CAC por 3×, para aquí.
 2. Habla con 15 personas de un nicho específico (no "gente sana" en general). Que
    3 te pre-paguen 3 meses por adelantado antes de que armes una sola caja.
 3. Cotiza fulfillment real con un operador. Mete ese número en el punto 1.
