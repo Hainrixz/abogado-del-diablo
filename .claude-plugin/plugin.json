@@ -1,0 +1,33 @@
+{
+  "name": "abogado-del-diablo",
+  "version": "1.0.0",
+  "description": "ES: Vuelve a Claude en tu contra para criticar a fondo una idea, un plan o un proyecto entero — sin validar ni suavizar — por ocho ángulos, con investigación de fracasos reales y un veredicto priorizado de qué arreglar. EN: Turn Claude against you to harshly critique an idea, plan, or whole project across eight angles with a prioritized verdict.",
+  "author": {
+    "name": "Hainrixz",
+    "url": "https://github.com/Hainrixz"
+  },
+  "homepage": "https://www.tododeia.com/community/abogado-del-diablo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hainrixz/abogado-del-diablo.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "devils-advocate",
+    "abogado-del-diablo",
+    "critique",
+    "critica",
+    "red-team",
+    "pre-mortem",
+    "anti-sycophancy",
+    "feedback",
+    "idea-validation",
+    "claude-code",
+    "cowork",
+    "skill",
+    "community"
+  ],
+  "engines": {
+    "claude-code": ">=2.0.0"
+  }
+}

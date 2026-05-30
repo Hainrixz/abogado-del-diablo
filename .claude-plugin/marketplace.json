@@ -1,0 +1,35 @@
+{
+  "name": "abogado-del-diablo",
+  "owner": {
+    "name": "Hainrixz",
+    "url": "https://github.com/Hainrixz"
+  },
+  "metadata": {
+    "description": "ES: Marketplace comunitario del plugin abogado-del-diablo — una skill que vuelve a Claude en tu contra para criticar a fondo una idea o un proyecto entero, sin validar ni suavizar, y entregar un veredicto con qué arreglar primero. EN: Community marketplace for the abogado-del-diablo plugin — a devil's-advocate skill that turns Claude against you to harshly critique an idea or whole project.",
+    "homepage": "https://github.com/Hainrixz/abogado-del-diablo",
+    "website": "https://www.tododeia.com"
+  },
+  "plugins": [
+    {
+      "name": "abogado-del-diablo",
+      "source": ".",
+      "version": "1.0.0",
+      "description": "Devil's advocate skill: turns Claude against you to harshly critique an idea, plan, pitch, or whole project across eight angles (assumptions, market, competition, viability, numbers, execution, pre-mortem, blind spot), researches real failures, and returns a blunt verdict with a prioritized fix list. No validation, no hedging.",
+      "keywords": [
+        "devils-advocate",
+        "abogado-del-diablo",
+        "critique",
+        "red-team",
+        "pre-mortem",
+        "anti-sycophancy",
+        "feedback",
+        "idea-validation",
+        "claude-code",
+        "cowork"
+      ],
+      "author": "Hainrixz",
+      "license": "MIT",
+      "homepage": "https://www.tododeia.com/community/abogado-del-diablo"
+    }
+  ]
+}
