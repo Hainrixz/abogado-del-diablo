@@ -7,10 +7,7 @@
     "url": "https://github.com/Hainrixz"
   },
   "homepage": "https://www.tododeia.com/community/abogado-del-diablo",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Hainrixz/abogado-del-diablo.git"
-  },
+  "repository": "https://github.com/Hainrixz/abogado-del-diablo",
   "license": "MIT",
   "keywords": [
     "devils-advocate",

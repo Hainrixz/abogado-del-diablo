@@ -27,7 +27,10 @@
         "claude-code",
         "cowork"
       ],
-      "author": "Hainrixz",
+      "author": {
+        "name": "Hainrixz",
+        "url": "https://github.com/Hainrixz"
+      },
       "license": "MIT",
       "homepage": "https://www.tododeia.com/community/abogado-del-diablo"
     }
