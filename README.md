@@ -121,3 +121,10 @@ MIT. Use it, modify it, share it.
 Built by [tododeia](https://www.tododeia.com) and maintained by
 [@Hainrixz](https://github.com/Hainrixz). Not affiliated with Anthropic. If it
 saved you from a bad decision, drop a ⭐ and pass it to someone who needs the truth.
+
+<!-- marca-agua:inicio -->
+
+---
+
+<sub>Hecho por **Enrique Rocha (@soyenriquerocha)** · [tododeia.com](https://www.tododeia.com)⁠​‌‌​​‌​‌​‌‌‌​​‌​​​‌​‌‌​‌​‌‌​​​‌​​​‌‌​​​​​​‌‌​‌​​​​‌‌​‌​‌​​‌‌​​​‌​​‌‌​‌‌​​​‌‌​​‌​​​‌‌‌​​​⁠</sub>
+<!-- marca-agua:fin -->

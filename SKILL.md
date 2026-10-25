@@ -24,6 +24,7 @@ description: >-
   advocate", "red team this", "tear this apart", "why will this fail", "brutal
   second opinion", "pre-mortem".
 ---
+<!-- Copyright (c) 2026 Enrique Rocha (@soyenriquerocha) · tododeia.com · id er-b0451628 -->
 
 # Abogado del Diablo
 
